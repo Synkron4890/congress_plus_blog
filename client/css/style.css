@@ -1,0 +1,18 @@
+#TopBanner{
+	height:200px;
+	width:100%;
+	background:url('') top left repeat-x;
+
+}
+#MainContent{
+	margin:20px auto;
+}
+#MainContent .contents{
+	float:left;
+
+}
+#MainContent .introduction{
+	padding-bottom:10px;
+	border-bottom:#EFEBEA solid 1px;
+}
+
