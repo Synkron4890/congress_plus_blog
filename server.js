@@ -1,11 +1,6 @@
-//
-// # SimpleServer
-//
-// A simple chat server using Socket.IO, Express, and Async.
-//
 var http = require('http');
 var path = require('path');
-
+var bodyParser = require('body-parser');
 var async = require('async');
 var socketio = require('socket.io');
 var express = require('express');
