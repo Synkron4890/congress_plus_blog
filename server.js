@@ -2,8 +2,11 @@ var http = require('http');
 var path = require('path');
 var bodyParser = require('body-parser');
 var async = require('async');
+var fs = require('fs');
+var js2xmlparser = require("js2xmlparser");
+var xslt = require('node_xslt');
 var socketio = require('socket.io');
-var express = require('express');
+var express = require('express'); 
 
 //
 // ## SimpleServer `SimpleServer(obj)`
