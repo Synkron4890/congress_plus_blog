@@ -8,11 +8,10 @@
 	margin:20px auto;
 }
 #MainContent .contents{
-	float:left;
+	float:center;
 
 }
 #MainContent .introduction{
 	padding-bottom:10px;
 	border-bottom:#EFEBEA solid 1px;
 }
-
